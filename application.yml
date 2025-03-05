@@ -1,0 +1,11 @@
+application:
+  search_timeout: 1000
+
+cep_services:
+  brasil_api:
+    name: Brasil Api
+    url: https://brasilapi.com.br/api/cep/v1/%s
+  via_cep:
+    name: ViaCEP
+    url: https://viacep.com.br/ws/%s/json/
+
